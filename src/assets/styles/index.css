@@ -1,0 +1,25 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    background: #007d35;
+    min-height: 100vh;
+    max-height: min-content;
+    background-position: center 80px, center center;
+    background-repeat:no-repeat;
+    background-size: 300px, 100% 100%;
+}
+
+#app {
+  margin: 0 25%;
+}
+
+@media (min-width:768px) {
+    body {
+      align-items: center;
+      background-size: 400px, 100% 100%;
+    }
+}
